@@ -4,7 +4,7 @@
 [![Node.js CI](https://github.com/AlexanderHolmes0/React_Personal_Site/actions/workflows/node.js.yml/badge.svg)](https://github.com/AlexanderHolmes0/React_Personal_Site/actions/workflows/node.js.yml)
 ![React](https://img.shields.io/badge/-React-000?&logo=React)
 --
-[![](https://github.com/AlexanderHolmes0/React_Personal_Site/blob/main/Banner.gif)](https://alexanderholmes.netlify.app/)
+[![](https://github.com/AlexanderHolmes0/React_Resume/blob/main/Banner.gif)](https://alexanderholmes.netlify.app/)
 
 The inspiration for this project was Adam Alston. Thanks, Adam, for the great idea! 
 
