@@ -29,32 +29,34 @@ function App() {
         <div className="stuffContainer">
             <div className='flex-items' title="Check out my GitHub" >
                 <a target="_blank" rel="noopener noreferrer" href="https://github.com/AlexanderHolmes0" data-testid="github-link">
-                    <FontAwesomeIcon icon={faGithub} size="2x" style={{ color: "#ffffff", }} className="font" />
+                    <FontAwesomeIcon icon={faGithub} size="3x" style={{ color: "#ffffff", }} className="font" />
                 </a>
             </div>
 
             <div className='flex-items' title="Connect on Linkedin" >
                 <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/aholmes0/" data-testid="linkedin-link">
-                    <FontAwesomeIcon icon={faLinkedin} size="2x" style={{ color: "#ffffff", }} className="font" />
+                    <FontAwesomeIcon icon={faLinkedin} size="3x" style={{ color: "#ffffff", }} className="font" />
 
                 </a>
             </div>
             <div className='flex-items' title="Email me" >
                 <a target="_blank" rel="noopener noreferrer" href="mailto:aholme27@vols.utk.edu" data-testid="email-link">
-                    <FontAwesomeIcon icon={faEnvelope} size="2x" style={{ color: "#ffffff", }} />
+                    <FontAwesomeIcon icon={faEnvelope} size="3x" style={{ color: "#ffffff", }} />
                 </a>
             </div>
             <div className='flex-items' title='View my Resume' >
                 <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/124OHZe1soZRCrN9I4ZNGVpgzh6WTsO0S/view?usp=sharing" data-testid="resume-link">
-                    <FontAwesomeIcon icon={faFile} size="2x" style={{ color: "#ffffff", }} />
+                    <FontAwesomeIcon icon={faFile} size="3x" style={{ color: "#ffffff", }} />
 
                 </a>
             </div>
         </div>
 
-        <br>
-        </br>
-
+        
+        
+        
+        <details>
+        <summary>Projects</summary>
         <div className="card">
             <div className='card-block'>
                 <a target="_blank" rel="noopener noreferrer" href="https://github.com/AlexanderHolmes0/BlackJackApp">
@@ -80,7 +82,7 @@ function App() {
                 </a>
             </div>
         </div>
-</body>
+        
 
         <div className="bottomrightt">
             Inspiration from
@@ -91,7 +93,8 @@ function App() {
 
         </div>
        
-    
+        </details>
+</body>
 
 </div>
 );
