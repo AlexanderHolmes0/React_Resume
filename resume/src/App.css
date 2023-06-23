@@ -3,7 +3,7 @@
 }
 
 .App-header {
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,11 +24,13 @@
     }
 
 .bottomright { 
-      position: absolute; 
-      bottom: 1px; 
-      right: 1px; 
+      position: relative; 
+      width: 103%;
+      bottom: 0; 
+      right: 0vh; 
       text-align: right; 
-      font-size: 10px;
+      font-size: 8px;
+      color: white;
       
   }
 .link {
@@ -51,6 +53,7 @@
   max-height: 100%;
   margin: 2px;
   scale: .9;
+  
 }
 .card {
   height: auto;
@@ -59,6 +62,6 @@
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
-  object-fit: scale-down;
+  
   
 }

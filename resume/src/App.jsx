@@ -85,7 +85,7 @@ function App() {
             Inspiration from
             <a
                 target="_blank" rel="noopener noreferrer" href="https://github.com/adamalston/v2" data-testid="alston-link">
-                <span className="link"> Adam Alston </span>
+                <span className="link"> Adam Alston</span>
             </a>
 
         </div>
