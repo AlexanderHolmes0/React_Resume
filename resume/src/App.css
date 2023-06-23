@@ -3,7 +3,7 @@
 }
 
 .App-header {
-  min-height: 90vh;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,26 +13,27 @@
 }
 .stuffContainer {
   display: flex;
+  width: 100%;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-
+  justify-content: center;
   }
+
 .flex-items {
       margin: 20px;
       text-align: center;
     }
 
-.bottomright { 
+.bottomrightt { 
+  
       position: relative; 
-      width: 103%;
-      bottom: 0; 
-      right: 0vh; 
+      bottom: 1vh; 
+      right: 1vh; 
       text-align: right; 
       font-size: 8px;
       color: white;
       
   }
+
 .link {
   color:#ffffff;
 } 

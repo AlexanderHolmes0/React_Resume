@@ -20,11 +20,12 @@ function App() {
   return (
     <div className="App">
     
-    <header className="App-header">
+    <header className="App-header"> 
     <Particles options={particlesOptions} init={particlesInit} />
         <h1><code>Alexander Holmes</code></h1>
         <h3><code>MSBA Candidate at UT-Knoxville</code></h3>
-
+        </header>
+        <body>
         <div className="stuffContainer">
             <div className='flex-items' title="Check out my GitHub" >
                 <a target="_blank" rel="noopener noreferrer" href="https://github.com/AlexanderHolmes0" data-testid="github-link">
@@ -79,9 +80,9 @@ function App() {
                 </a>
             </div>
         </div>
+</body>
 
-
-        <div className="bottomright">
+        <div className="bottomrightt">
             Inspiration from
             <a
                 target="_blank" rel="noopener noreferrer" href="https://github.com/adamalston/v2" data-testid="alston-link">
@@ -89,8 +90,8 @@ function App() {
             </a>
 
         </div>
-
-    </header>
+       
+    
 
 </div>
 );
