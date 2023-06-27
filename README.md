@@ -1,7 +1,6 @@
 # [Alexander Holmes React Resume](https://alexanderholmes.netlify.app/)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/17cc2cc2-7246-43df-add3-5016f07f35d8/deploy-status)](https://app.netlify.com/sites/alexanderholmes/deploys)
-[![Node.js CI](https://github.com/AlexanderHolmes0/React_Personal_Site/actions/workflows/node.js.yml/badge.svg)](https://github.com/AlexanderHolmes0/React_Personal_Site/actions/workflows/node.js.yml)
 ![React](https://img.shields.io/badge/-React-000?&logo=React)
 --
 [![](https://github.com/AlexanderHolmes0/React_Resume/blob/main/Banner.gif)](https://alexanderholmes.netlify.app/)
