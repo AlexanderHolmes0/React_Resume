@@ -11,36 +11,33 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
 .stuffContainer {
   display: flex;
   width: 100%;
   flex-direction: row;
   justify-content: center;
-  }
+}
 
 .flex-items {
-      margin: 20px;
-      text-align: center;
-    }
+  margin: 20px;
+  text-align: center;
+}
 
-.bottomrightt { 
-  
-      position: relative; 
-      bottom: 1vh; 
-      right: 1vh; 
-      text-align: right; 
-      font-size: 8px;
-      color: white;
-      
-  }
+.bottomrightt {
+
+  position: relative;
+  bottom: 1vh;
+  right: 1vh;
+  text-align: right;
+  font-size: 8px;
+  color: white;
+
+}
 
 .link {
-  color:#ffffff;
-} 
-.FontAwesomeIcon {
-  color:#ffffff
-  
-}       
+  color: #ffffff;
+}
 
 #tsparticles {
   position: fixed;
@@ -52,19 +49,45 @@
   top: 0;
   z-index: -1;
 }
+
 .card-block {
   max-height: 100%;
   margin: 2px;
   scale: .9;
-  
+
 }
+
 .card {
   height: auto;
   max-width: 100%;
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
+}
+
+
+.fa-icon{
+  color: #ffffff;
   
-  
+}
+
+.flex-items:hover .fa-icon {
+  animation: Rainbow 1s ease infinite;
+}
+
+ @keyframes Rainbow {
+  0% {
+    color:red }
+  50% {
+    color:yellow }
+  100% {
+    color:blue } }
+
+.detailss:hover{
+  animation: Rainbow 1s ease infinite;
+}
+
+.title:hover {
+  animation: Rainbow 1s ease infinite;
 }
