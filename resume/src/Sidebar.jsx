@@ -1,15 +1,15 @@
 
 import './Sidebar.css';
 import { bubble as Menu } from 'react-burger-menu';
+import {Link} from 'react-router-dom'
 
-
-function menu() {
+export default function menu () {
   return (
     <Menu>
     
-      <a className="menu-item" href="/Home">
-        Home
-      </a>
+      <Link className="menu-item" to="/Home">Home</Link>
+        
+      
     
       <br />
       
@@ -37,4 +37,3 @@ function menu() {
   );
 }
 
-export default menu
