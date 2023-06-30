@@ -29,7 +29,7 @@ function App() {
 <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route path="Home" element={<Home />} />
+          <Route index element={<Home />} />
           <Route path="BlackJackApp" element={<Blackjack />} />
           <Route path="Senate_Tracker" element={<SenateTracker />} />
           <Route path="VisualizeTree" element={<VizTree />} />
