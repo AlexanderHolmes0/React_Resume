@@ -17,7 +17,7 @@ import './App.css';
 
 
 
-function App() {
+export default function App() {
 
     const particlesInit = useCallback(main => {
         loadFull(main);
@@ -30,6 +30,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
+          <Route path='/Home' element={<Home />} />
           <Route path="BlackJackApp" element={<Blackjack />} />
           <Route path="Senate_Tracker" element={<SenateTracker />} />
           <Route path="VisualizeTree" element={<VizTree />} />
@@ -44,5 +45,5 @@ function App() {
         </div>
     );
 }
+ReactDOM.render(<App />, document.getElementById("root"));
 
-export default App
