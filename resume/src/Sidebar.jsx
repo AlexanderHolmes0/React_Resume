@@ -1,7 +1,7 @@
 import React from 'react';
 import './Sidebar.css';
 import { bubble as Menu } from 'react-burger-menu';
-
+import { BrowserRouter, Route, Link } from "react-router-dom";
 
 export default props => {
   return (
