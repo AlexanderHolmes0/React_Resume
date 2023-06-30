@@ -3,7 +3,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons"
 import { faLinkedin} from "@fortawesome/free-brands-svg-icons"
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons"
 import { faFile } from "@fortawesome/free-regular-svg-icons"
-import React from 'react';
+
 
 
 function Home() {
@@ -13,7 +13,7 @@ function Home() {
         <header className="App-header">
                       
                 <h1 className='title'><code>Alexander Holmes</code></h1>
-                <h3 classname='title3'><code>MSBA Candidate at UT-Knoxville</code></h3>
+                <h3 className='title3'><code>MSBA Candidate at UT-Knoxville</code></h3>
             </header>
             
 
@@ -91,6 +91,6 @@ function Home() {
             </body>
             </div>
     );
-};
+}
  
 export default Home;
