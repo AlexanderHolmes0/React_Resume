@@ -11,7 +11,14 @@
   -webkit-text-size-adjust: 100%;
   
 }
+* {
+  box-sizing: border-box;
+}
 
+#page-wrap {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
 
 
 

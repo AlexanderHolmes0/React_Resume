@@ -79,8 +79,14 @@
  @keyframes Rainbow {
   0% {
     color:red }
+  25% {
+    color:lightcoral
+  }
   50% {
     color:yellow }
+  75% {
+    color:lightyellow
+  }
   100% {
     color:blue } }
 
@@ -90,4 +96,8 @@
 
 .title:hover {
   animation: Rainbow 1s ease infinite;
+}
+* {
+  margin: 0px;
+  padding: 0px;
 }
