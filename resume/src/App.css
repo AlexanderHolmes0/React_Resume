@@ -17,12 +17,15 @@
   width: 100%;
   flex-direction: row;
   justify-content: center;
+  
 }
 
 .flex-items {
   margin: 20px;
   text-align: center;
+
 }
+
 
 .bottomrightt {
 
@@ -72,8 +75,16 @@
   
 }
 
+.flex-items:hover{
+  background-color: transparent;
+  text-shadow: #ffffff;
+  text-shadow: 0 0 15px #00aced;
+}
+
 .flex-items:hover .fa-icon {
-  animation: Rainbow 1s ease infinite;
+  transition: all 0.5s ease;
+  filter: drop-shadow(0 0 20px #ffffff);
+  animation: Rainbow 4s ease infinite;
 }
 
  @keyframes Rainbow {
@@ -92,6 +103,7 @@
 
 .detailss:hover{
   animation: Rainbow 1s ease infinite;
+  filter: drop-shadow(0 0 20px #ffffff);
 }
 
 .title:hover {
@@ -102,6 +114,7 @@
   padding: 0px;
 }
 
-.iframe{
+.noborder{
   border: none;
 }
+

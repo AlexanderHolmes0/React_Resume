@@ -16,15 +16,12 @@ function Home() {
                 <h3 className='title3'><code>MSBA Candidate at UT-Knoxville</code></h3>
             </header>
             
-
-
-
             <body>
                 <div className="stuffContainer">
                     <div className='flex-items' title="Check out my GitHub" >
                         <a target="_blank" rel="noopener noreferrer" href="https://github.com/AlexanderHolmes0" data-testid="github-link">
-                            
-                           <FontAwesomeIcon icon={faGithub} size="3x" style={{ color: "#ffffff" }} className="fa-icon" />
+                        
+                           <FontAwesomeIcon icon={faGithub} size="3x" className="fa-icon" />
                         </a>
                     </div>
 
