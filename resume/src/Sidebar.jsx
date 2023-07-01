@@ -8,8 +8,6 @@ export default function menu () {
     <Menu>
     
       <Link className="menu-item" to="/Home">Home</Link>
-        
-      
     
       <br />
       
