@@ -13,9 +13,10 @@ export default function menu () {
       
       <h3>Embedded Projects</h3>
       <hr />
-      <a className="menu-item" href="/BlackJackApp">
-        Blackack App
-      </a>
+
+      <Link className="menu-item" to="/BlackJackApp">Blackack App</Link>
+        
+      
       <a className="menu-item" href="/Senate_Tracker">
         Senate Tracker
       </a>
