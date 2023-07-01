@@ -13,7 +13,7 @@ function Home() {
         <header className="App-header">
                       
                 <h1 className='title'><code>Alexander Holmes</code></h1>
-                <h3 className='title3'><code>MSBA Candidate at UT-Knoxville</code></h3>
+                <h3 className='title'><code>MSBA Candidate at UT-Knoxville</code></h3>
             </header>
             
             <body>
@@ -75,7 +75,11 @@ function Home() {
                         </div>
                     </div>
 
-                    <div className="bottomrightt">
+                    
+
+                </details>
+
+                <div className="bottomrightt">
                         Inspiration from
                         <a
                             target="_blank" rel="noopener noreferrer" href="https://github.com/adamalston/v2" data-testid="alston-link">
@@ -83,10 +87,15 @@ function Home() {
                         </a>
 
                     </div>
-
-                </details>
+            
+            
+            
+            
+        
             </body>
+            
             </div>
+            
     );
 }
  
