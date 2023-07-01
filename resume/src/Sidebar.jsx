@@ -14,24 +14,22 @@ export default function menu () {
       <h3>Embedded Projects</h3>
       <hr />
 
-      <Link className="menu-item" to="/BlackJackApp">Blackack App</Link>
+      <Link className="menu-item" to="/BlackJackApp">Blackack App </Link>
         
       
-      <a className="menu-item" href="/Senate_Tracker">
-        Senate Tracker
-      </a>
-      <a className="menu-item" href="/VisualizeTree">
-        Visualize Tree
-      </a>
-      <a className="menu-item" href="/Meta_Creator">
-        Meta Creator
-      </a>
-      <a className="menu-item" href="/Stroke_Dash">
-        Stroke Dash
-      </a>
-      <a className="menu-item" href="/CentralLimit">
-        Central Limit
-      </a>
+      <Link className="menu-item" to="/Senate_Tracker">Senate Tracker </Link>
+        
+    
+      <Link className="menu-item" to="/VisualizeTree">Visualize Tree </Link>
+        
+    
+      <Link className="menu-item" to="/Meta_Creator">Meta Creator </Link>
+        
+    
+      <Link className="menu-item" to="/Stroke_Dash">Stroke Dash </Link>
+      
+  
+      <Link className="menu-item" to="/CentralLimit">Central Limit </Link>
     </Menu>
   );
 }
