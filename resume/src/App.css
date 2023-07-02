@@ -73,8 +73,11 @@ body {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
+  
 }
-
+.card-block:hover{
+  filter: drop-shadow(0 0 20px #ffffff);
+}
 
 .fa-icon{
   color: #ffffff;
@@ -83,8 +86,7 @@ body {
 
 .flex-items:hover{
   background-color: transparent;
-  text-shadow: #ffffff;
-  text-shadow: 0 0 15px #00aced;
+  
 }
 
 .flex-items:hover .fa-icon {
@@ -109,7 +111,7 @@ body {
 
 .detailss:hover{
   animation: Rainbow 1s ease infinite;
-  filter: drop-shadow(0 0 20px #ffffff);
+  
 }
 
 .title:hover {
