@@ -108,8 +108,11 @@ body {
   75% {
     color:lightyellow
   }
-  100% {
-    color:blue } }
+  85% {
+    color:blue } 
+  100%{
+    color: lightblue
+  }}
 
 .detailss:hover{
   animation: Rainbow 1s ease infinite;
