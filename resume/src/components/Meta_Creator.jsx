@@ -1,8 +1,8 @@
  
 function MetaCreator() {
     return (
-        <div>
-            <h1>Meta_Creator</h1>
+        <div className="appbox" >
+            
             <iframe className = "noborder" height="850" width="60%" src="https://aholmes24.shinyapps.io/Meta_Creator/"> </iframe>
         </div>
     );

@@ -2,8 +2,8 @@ import { useCallback } from 'react';
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import particlesOptions from "./particles.json";
-import ReactDOM from "react-dom";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
 import Blackjack from './components/BlackJackApp';
 import Home from './components/Home';
@@ -17,12 +17,13 @@ import './App.css';
 
 
 
+
 export default function App() {
 
     const particlesInit = useCallback(main => {
         loadFull(main);
     }, [])
-
+    
     return (
         <div className="App">
 <Particles options={particlesOptions} init={particlesInit} />
@@ -45,5 +46,5 @@ export default function App() {
         </div>
     );
 }
-ReactDOM.render(<App />, document.getElementById("root"));
+
 

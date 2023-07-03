@@ -1,8 +1,8 @@
  
 function CentralLim() {
     return (
-        <div>
-            <h1>Central Limit</h1>
+        <div className="appbox">
+            
             <iframe className = "noborder" height="850" width="75%" src="https://aholmes23.shinyapps.io/CentralLimitTheorem/"> </iframe>
         </div>
     );

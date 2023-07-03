@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+
+
 }
 
 .App-header {
@@ -125,4 +127,8 @@ body {
 
 .noborder{
   border: none;
+}
+
+.appbox{
+  padding-top: 25px;
 }

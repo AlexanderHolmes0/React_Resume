@@ -9,11 +9,11 @@ import { faFile } from "@fortawesome/free-regular-svg-icons"
 function Home() {
     return (
 
-        <div>
+        <>
         <header className="App-header">
                       
-                <h1 className='title'><code>Alexander Holmes</code></h1>
-                <h3 className='title'><code>MSBA Candidate at UT-Knoxville</code></h3>
+                <h1 className='title'>Alexander Holmes</h1>
+                <h3 className='title'>MSBA Candidate at UT-Knoxville</h3>
             </header>
             
             <body>
@@ -88,14 +88,10 @@ function Home() {
 
                     </div>
             
+               </body>
             
-            
-            
-        
-            </body>
-            
-            </div>
-            
+           
+            </>
     );
 }
  

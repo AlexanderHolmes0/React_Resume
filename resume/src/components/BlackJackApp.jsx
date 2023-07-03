@@ -2,8 +2,8 @@
  
 function Blackjack() {
     return (
-        <div>
-            <h1>Blackjack App</h1>
+        <div className="appbox">
+            
             <iframe className = "noborder" height="900" width="60%" src="https://aholmes23.shinyapps.io/BlackJackApp/"> </iframe>
         </div>
     );
