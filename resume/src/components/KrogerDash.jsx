@@ -1,24 +1,17 @@
 
 
-
-
-import React, { useEffect, useRef } from 'react';
-
-
-const {tableau} = window;
-
-export default function Kroger() {
-  const ref = useRef(null);
-  const url =  "http://public.tableau.com/views/RegionalSampleWorkbook/Storms";
-
-  function initViz(){
-    newtableau.Viz(ref.current,url);
-  }
-
+ 
+function Kroger() {
   return (
-    <div ref={ref} style={{width:'70%', margin:'auto'}}> </div>
+      <div className="appbox">
+          
+          <iframe className = "noborder" height="900" width="80%" src="https://public.tableau.com/views/Carbs_16776878868130/Dashboard1?:showVizHome=no&:embed=true"> </iframe>
+          
+      </div>
   );
 }
+
+export default Kroger;
 
  
 

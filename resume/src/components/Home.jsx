@@ -48,7 +48,7 @@ function Home() {
 
 
 
-                <details className='detailss'>
+                <details className='detailss' open>
                     <summary className='titles'> Github Repos </summary>
                     <div className="card">
                         <div className='card-block'>

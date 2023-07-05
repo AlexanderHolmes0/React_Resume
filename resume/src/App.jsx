@@ -13,6 +13,8 @@ import MetaCreator from './components/Meta_Creator';
 import StrokeDash from './components/Stroke_Dash';
 import CentralLim from './components/CentralLimit';
 import Kroger from './components/KrogerDash';
+import Youtube from './components/YoutubeDash';
+import Kickstart from './components/KickstarterDash';
 import './App.css';
 
 
@@ -41,6 +43,8 @@ export default function App() {
           <Route path="Stroke_Dash" element={<StrokeDash />} />
           <Route path="CentralLimit" element={<CentralLim />} />
           <Route path="KrogerDash" element={<Kroger />} />
+          <Route path="YoutubeDash" element={<Youtube />} />
+          <Route path="KickstarterDash" element={<Kickstart />} />
         </Route>
       </Routes>
     </Router>
