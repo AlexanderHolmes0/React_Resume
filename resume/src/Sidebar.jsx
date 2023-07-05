@@ -15,7 +15,7 @@ export default function menu() {
   return (
     <Menu isOpen={isMenuOpen} onStateChange={({ isOpen }) => setIsMenuOpen(isOpen)} right>
     
-      <Link className="menu-item" to="/" onClick={handleLinkClick}> <span className='grayscale'>🏡</span> Home </Link>
+      <Link className="menu-item" to="/" onClick={handleLinkClick}> <h3><span className='grayscale'>🏡</span> Home</h3> </Link>
     
       <br />
       
