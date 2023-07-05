@@ -1,4 +1,4 @@
-import { useCallback } from 'react';
+import { useCallback, useState } from 'react';
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import particlesOptions from "./particles.json";
@@ -12,6 +12,7 @@ import VizTree from './components/VisualizeTree';
 import MetaCreator from './components/Meta_Creator';
 import StrokeDash from './components/Stroke_Dash';
 import CentralLim from './components/CentralLimit';
+import Kroger from './components/KrogerDash';
 import './App.css';
 
 
@@ -39,6 +40,7 @@ export default function App() {
           <Route path="Stroke_Dash" element={<StrokeDash />} />
           <Route path="Stroke_Dash" element={<StrokeDash />} />
           <Route path="CentralLimit" element={<CentralLim />} />
+          <Route path="KrogerDash" element={<Kroger />} />
         </Route>
       </Routes>
     </Router>

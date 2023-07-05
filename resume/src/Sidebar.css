@@ -87,3 +87,7 @@
     }
     100% {
         background:blue } }
+
+  .grayscale{
+    filter: grayscale(100%)
+  }

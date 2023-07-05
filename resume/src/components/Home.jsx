@@ -11,8 +11,9 @@ function Home() {
 
         <>
         <header className="App-header">
-                      
+                <div className = "font-face-gm">     
                 <h1 className='title'>Alexander Holmes</h1>
+                </div>
                 <h3 className='title'>MSBA Candidate at UT-Knoxville</h3>
             </header>
             
