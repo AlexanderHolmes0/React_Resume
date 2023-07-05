@@ -15,6 +15,7 @@ import CentralLim from './components/CentralLimit';
 import Kroger from './components/KrogerDash';
 import Youtube from './components/YoutubeDash';
 import Kickstart from './components/KickstarterDash';
+import XGB from './components/RaceXGBS';
 import './App.css';
 
 
@@ -45,6 +46,7 @@ export default function App() {
           <Route path="KrogerDash" element={<Kroger />} />
           <Route path="YoutubeDash" element={<Youtube />} />
           <Route path="KickstarterDash" element={<Kickstart />} />
+          <Route path="RaceXGBS" element={<XGB />} />
         </Route>
       </Routes>
     </Router>

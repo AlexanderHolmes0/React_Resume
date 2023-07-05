@@ -91,3 +91,7 @@
   .grayscale{
     filter: grayscale(100%)
   }
+  .nodeco{
+    text-decoration: none;
+    color: black;
+  }
