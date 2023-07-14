@@ -94,7 +94,7 @@ body {
 .flex-items:hover .fa-icon {
   transition: all 0.5s ease;
   filter: drop-shadow(0 0 20px #ffffff);
-  animation: Rainbow 4s ease infinite;
+  animation: Rainbow 10s ease infinite;
 }
 
  @keyframes Rainbow {
@@ -115,12 +115,12 @@ body {
   }}
 
 .detailss:hover{
-  animation: Rainbow 1s ease infinite;
+  animation: Rainbow 10s ease infinite;
   
 }
 
 .title:hover {
-  animation: Rainbow 1s ease infinite;
+  animation: Rainbow 10s ease infinite;
   filter: drop-shadow(0 0 20px #ffffff);
 }
 * {
