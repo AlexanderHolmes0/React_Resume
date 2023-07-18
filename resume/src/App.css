@@ -118,11 +118,16 @@ body {
   animation: Rainbow 10s ease infinite;
   
 }
+.detailss .title:hover{
+  filter: text-shadow(0 0 20px #ffffff);
+  text-shadow: 0 0 3px #FF0000;
+}
 
 .title:hover {
   animation: Rainbow 10s ease infinite;
   filter: drop-shadow(0 0 20px #ffffff);
 }
+
 * {
   margin: 0px;
   padding: 0px;
@@ -137,14 +142,16 @@ body {
   -ms-overflow-style: none;  /* Internet Explorer 10+ */
   scrollbar-width: none;  /* Firefox */
 }
+
 .noborder::-webkit-scrollbar { 
   width: 0;  /* Safari and Chrome */
   background: transparent;
 }
+
 .appbox{
   padding-top: 25px;
-  
 }
+
 .font-face-gm{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
