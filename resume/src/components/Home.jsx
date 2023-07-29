@@ -38,7 +38,7 @@ function Home() {
                         </a>
                     </div>
                     <div className='flex-items' title='View my Resume' >
-                        <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/108tV2RLm0dOkFarorkH0Vo32Qe4juKyj/view?pli=1" data-testid="resume-link">
+                        <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/108tV2RLm0dOkFarorkH0Vo32Qe4juKyj/view?usp=sharing" data-testid="resume-link">
                             <FontAwesomeIcon icon={faFile} size="3x" className="fa-icon" />
 
                         </a>
