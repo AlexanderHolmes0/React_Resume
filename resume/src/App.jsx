@@ -16,6 +16,7 @@ import Kroger from './components/KrogerDash';
 import Youtube from './components/YoutubeDash';
 import Kickstart from './components/KickstarterDash';
 import XGB from './components/RaceXGBS';
+import InventorySimulation from './components/InventorySimulation';
 import './App.css';
 
 
@@ -47,6 +48,7 @@ export default function App() {
           <Route path="YoutubeDash" element={<Youtube />} />
           <Route path="KickstarterDash" element={<Kickstart />} />
           <Route path="RaceXGBS" element={<XGB />} />
+          <Route path="InventorySimulation" element={<InventorySimulation/>} />
         </Route>
       </Routes>
     </Router>

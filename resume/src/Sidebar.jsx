@@ -40,6 +40,7 @@ export default function menu() {
   
       <Link className="menu-item" to="CentralLimit" onClick={handleLinkClick}><span className='grayscale'>📊</span>  Central Limit </Link>
 
+      <Link className="menu-item" to="InventorySimulation" onClick={handleLinkClick}><span className='grayscale'>🏭</span> Inventory Simulation</Link>
       <br />
       
       <h3> <img src='https://images.ctfassets.net/spoqsaf9291f/5M2QHtaWvuvEUU2V8MNVXH/f780593bab58709f95404d27bcb4e5d4/tableau-software.svg' height='40px'></img> 
