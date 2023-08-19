@@ -18,7 +18,7 @@ import Kickstart from './components/KickstarterDash';
 import XGB from './components/RaceXGBS';
 import InventorySimulation from './components/InventorySimulation';
 import './App.css';
-import DarkModeToggle from './components/darkmode';
+
 
 
 
@@ -33,7 +33,7 @@ export default function App() {
     return (
         <div className="App">
 <Particles options={particlesOptions} init={particlesInit} />
-<DarkModeToggle />
+
 <Router>
       <Routes>
         <Route path="/" element={<Layout />}>
