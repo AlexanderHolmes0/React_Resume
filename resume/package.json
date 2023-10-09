@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@types/react": "^18.2.20",
-    "@types/react-dom": "^18.2.6",
+    "@types/react-dom": "^18.2.12",
     "@vitejs/plugin-react": "^4.0.4",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
