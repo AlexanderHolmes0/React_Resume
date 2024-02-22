@@ -27,7 +27,7 @@ function Home() {
                     </div>
 
                     <div className='flex-items' title="Connect on Linkedin" >
-                        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/aholmes0/" data-testid="linkedin-link">
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/alexanderholmes0/" data-testid="linkedin-link">
                             <FontAwesomeIcon icon={faLinkedin} size="3x" className="fa-icon" />
 
                         </a>
