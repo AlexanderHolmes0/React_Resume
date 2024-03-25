@@ -49,7 +49,7 @@ function Home() {
 
 
                 <details className='detailss' >
-                    <summary className='titles'> Github Repos </summary>
+                    <summary className='titles'> Some Github Repos </summary>
                     <div className="card">
                         <div className='card-block'>
                             <a target="_blank" rel="noopener noreferrer" href="https://github.com/AlexanderHolmes0/BlackJackApp">
