@@ -65,13 +65,13 @@ function Home() {
 
                     <div className="card">
                         <div className='card-block'>
-                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/AlexanderHolmes0/Stroke_Dash">
-                                <img src="https://github-readme-stats.vercel.app/api/pin/?username=alexanderholmes0&repo=VisualizeTree" alt='Stroke_Dash' />
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/AlexanderHolmes0/Sport_Sched_Viz">
+                                <img src="https://github-readme-stats.vercel.app/api/pin/?username=alexanderholmes0&repo=Sport_Sched_Viz" alt='Sport_Sched_Viz' />
                             </a>
                         </div>
                         <div className='card-block'>
-                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/AlexanderHolmes0/VisualizeTree">
-                                <img src="https://github-readme-stats.vercel.app/api/pin/?username=alexanderholmes0&repo=RaceXGBs" alt='VisualizeTree' />
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/AlexanderHolmes0/Visualize_Metrics">
+                                <img src="https://github-readme-stats.vercel.app/api/pin/?username=alexanderholmes0&repo=Visualize_Metrics" alt='Visualize_Metrics' />
                             </a>
                         </div>
                     </div>
