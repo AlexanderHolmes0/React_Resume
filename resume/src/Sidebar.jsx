@@ -68,11 +68,15 @@ export default function menu() {
         <img src='https://pypi-camo.freetls.fastly.net/a95ef5913dc4cc84d2155ff690a0fa0d4c33d7e2/68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f67726164696f2d6170702f67726164696f2f6d61696e2f726561646d655f66696c65732f67726164696f2e737667' height='25px'></img>
       </span>  Fake News Detector </Link>
 
+      <a className="menu-item" target="_blank" rel="noopener noreferrer" href='https://huggingface.co/AlexanderHolmes0/Fake-News-Detector'> 
+      <span className='grayscale'>📃</span> Fake News DistilBERT </a>
+
       <Link className="menu-item" to="RaceXGBS" onClick={handleLinkClick}><span className='grayscale'>
         <img src='https://upload.wikimedia.org/wikipedia/commons/6/69/XGBoost_logo.png' height='25px'></img>
       </span>  Race Models </Link>
 
-      <a className="menu-item" target="_blank" rel="noopener noreferrer" href='https://drive.google.com/file/d/1T_eeD9OpME3b0wlAO_3szS0-mA6MK2Ua/view?usp=sharing'> <span className='grayscale'>📃</span>  Pakistani Used Car Sales </a>
+      <a className="menu-item" target="_blank" rel="noopener noreferrer" href='https://drive.google.com/file/d/1T_eeD9OpME3b0wlAO_3szS0-mA6MK2Ua/view?usp=sharing'> 
+      <span className='grayscale'>📃</span>  Pakistani Used Car Sales </a>
 
     </Menu>
   );
