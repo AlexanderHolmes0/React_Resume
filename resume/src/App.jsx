@@ -17,6 +17,7 @@ import Youtube from './components/YoutubeDash';
 import Kickstart from './components/KickstarterDash';
 import XGB from './components/RaceXGBS';
 import InventorySimulation from './components/InventorySimulation';
+import FakeNews from './components/FakeNews';
 import './App.css';
 
 
@@ -51,6 +52,7 @@ export default function App() {
           <Route path="KickstarterDash" element={<Kickstart />} />
           <Route path="RaceXGBS" element={<XGB />} />
           <Route path="InventorySimulation" element={<InventorySimulation/>} />
+          <Route path="FakeNews" element={<FakeNews />} />
         </Route>
       </Routes>
     </Router>
