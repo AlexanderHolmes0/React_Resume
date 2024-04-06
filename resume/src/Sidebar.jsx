@@ -62,7 +62,7 @@ export default function menu() {
 
 
       <h3> <img src='https://workable-application-form.s3.amazonaws.com/advanced/production/61557f91d9510741dc62e7f8/c3635b59-a3d2-444a-b636-a9d0061dcdde' height='25px'></img>
-        <a className="nodeco" target="_blank" rel="noopener noreferrer" href='https://huggingface.co/AlexanderHolmes0'> Hugging Face </a></h3>
+        <a className="nodeco" target="_blank" rel="noopener noreferrer" href='https://huggingface.co'> Hugging Face </a></h3>
       <hr />
       <Link className="menu-item" to="FakeNews" onClick={handleLinkClick}><span className='grayscale'>
         <img src='https://pypi-camo.freetls.fastly.net/a95ef5913dc4cc84d2155ff690a0fa0d4c33d7e2/68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f67726164696f2d6170702f67726164696f2f6d61696e2f726561646d655f66696c65732f67726164696f2e737667' height='25px'></img>
