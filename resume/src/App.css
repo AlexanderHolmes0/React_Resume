@@ -116,10 +116,7 @@ body {
     color: lightblue
   }}
 
-.detailss:hover{
-  animation: Rainbow 10s ease infinite;
-  
-}
+
 .detailss, .title:hover, .summary:hover{
   filter: text-shadow(0 0 30px #ffffff);
 }

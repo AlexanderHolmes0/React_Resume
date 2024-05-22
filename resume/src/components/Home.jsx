@@ -51,7 +51,7 @@ function Home() {
 
 
                 <details className='detailss' >
-                    <summary className='title'><code>Notable Github Repos</code></summary>
+                    <summary><code>Notable Github Repos</code></summary>
                     <div className="card">
                         <div className='card-block'>
                             <a target="_blank" rel="noopener noreferrer" href="https://github.com/AlexanderHolmes0/BlackJackApp">
