@@ -14,8 +14,10 @@ function Home() {
                 <div className = "font-face-gm">     
                 <h1 className='title'>Alexander Holmes</h1>
                 </div>
-                <h3 className='title'>MSBA Candidate at UT-Knoxville</h3>
-            </header>
+                <div className = "font-face-gm">
+                <h3 className='subtitle'>Data Analyst</h3>
+                </div>
+            </header>   
             
             <body>
                 <div className="stuffContainer">
@@ -49,7 +51,7 @@ function Home() {
 
 
                 <details className='detailss' >
-                    <summary className='titles'> Some Github Repos </summary>
+                    <summary className='title'>Notable Github Repos</summary>
                     <div className="card">
                         <div className='card-block'>
                             <a target="_blank" rel="noopener noreferrer" href="https://github.com/AlexanderHolmes0/BlackJackApp">

@@ -5,6 +5,7 @@
 }
 
 .App-header {
+  margin-top: 1.5cm;
   min-height: 50vh;
   display: flex;
   flex-direction: column;
@@ -34,7 +35,6 @@ body {
   text-align: center;
 
 }
-
 
 .bottomrightt {
   
@@ -78,6 +78,7 @@ body {
   justify-content: center;
   
 }
+
 .card-block:hover{
   filter: drop-shadow(0 0 20px #ffffff);
 }
@@ -119,12 +120,15 @@ body {
   animation: Rainbow 10s ease infinite;
   
 }
-.detailss .title:hover{
+.detailss, .title:hover{
   filter: text-shadow(0 0 20px #ffffff);
-  text-shadow: 0 0 3px #FF0000;
 }
 
-.title:hover {
+.detailss, .title{
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.title:hover, .subtitle:hover {
   animation: Rainbow 10s ease infinite;
   filter: drop-shadow(0 0 20px #ffffff);
 }
@@ -153,6 +157,19 @@ body {
   padding-top: 25px;
 }
 
+/*
 .font-face-gm{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+*/
+
+.font-face-gm{
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.subtitle{
+  font-size: 30px;
+  margin-top: 1.5cm;
+  
+  font-family: "Lucida Console", "Courier New", monospace;
 }
