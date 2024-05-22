@@ -12,10 +12,10 @@ function Home() {
         <>
         <header className="App-header">
                 <div className = "font-face-gm">     
-                <h1 className='title'>Alexander Holmes</h1>
+                <h1 className='title'> <code>Alexander Holmes </code></h1>
                 </div>
                 <div className = "font-face-gm">
-                <h3 className='subtitle'>Data Analyst</h3>
+                <h3 className='subtitle'><code>Data Analyst</code></h3>
                 </div>
             </header>   
             
@@ -51,7 +51,7 @@ function Home() {
 
 
                 <details className='detailss' >
-                    <summary className='title'>Notable Github Repos</summary>
+                    <summary className='title'><code>Notable Github Repos</code></summary>
                     <div className="card">
                         <div className='card-block'>
                             <a target="_blank" rel="noopener noreferrer" href="https://github.com/AlexanderHolmes0/BlackJackApp">

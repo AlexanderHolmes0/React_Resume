@@ -120,8 +120,8 @@ body {
   animation: Rainbow 10s ease infinite;
   
 }
-.detailss, .title:hover{
-  filter: text-shadow(0 0 20px #ffffff);
+.detailss, .title:hover, .summary:hover{
+  filter: text-shadow(0 0 30px #ffffff);
 }
 
 .detailss, .title{
