@@ -15,7 +15,7 @@ function Home() {
                 <h1 className='title'> <code>Alexander Holmes </code></h1>
                 </div>
                 <div className = "font-face-gm">
-                <h3 className='subtitle'><code>Data Analyst</code></h3>
+                <h3 className='subtitle'><code>Data Scientist</code></h3>
                 </div>
             </header>   
             
@@ -55,12 +55,12 @@ function Home() {
                     <div className="card">
                         <div className='card-block'>
                             <a target="_blank" rel="noopener noreferrer" href="https://github.com/AlexanderHolmes0/BlackJackApp">
-                                <img src="https://github-readme-stats.vercel.app/api/pin/?username=alexanderholmes0&repo=BlackJackApp" alt='BlackJackApp' />
+                                <img src="https://github-stats-extended.vercel.app/api/pin/?username=alexanderholmes0&repo=BlackJackApp" alt='BlackJackApp' />
                             </a>
                         </div>
                         <div className='card-block'>
                             <a target="_blank" rel="noopener noreferrer" href="https://github.com/AlexanderHolmes0/Senate_Tracker">
-                                <img src="https://github-readme-stats.vercel.app/api/pin/?username=alexanderholmes0&repo=Senate_Tracker" alt='Senate_Tracker' />
+                                <img src="https://github-stats-extended.vercel.app/api/pin/?username=alexanderholmes0&repo=Senate_Tracker" alt='Senate_Tracker' />
                             </a>
                         </div>
                     </div>
@@ -68,12 +68,12 @@ function Home() {
                     <div className="card">
                         <div className='card-block'>
                             <a target="_blank" rel="noopener noreferrer" href="https://github.com/AlexanderHolmes0/Sport_Sched_Viz">
-                                <img src="https://github-readme-stats.vercel.app/api/pin/?username=alexanderholmes0&repo=Sport_Sched_Viz" alt='Sport_Sched_Viz' />
+                                <img src="https://github-stats-extended.vercel.app/api/pin/?username=alexanderholmes0&repo=Sport_Sched_Viz" alt='Sport_Sched_Viz' />
                             </a>
                         </div>
                         <div className='card-block'>
                             <a target="_blank" rel="noopener noreferrer" href="https://github.com/AlexanderHolmes0/Visualize_Metrics">
-                                <img src="https://github-readme-stats.vercel.app/api/pin/?username=alexanderholmes0&repo=Visualize_Metrics" alt='Visualize_Metrics' />
+                                <img src="https://github-stats-extended.vercel.app/api/pin/?username=alexanderholmes0&repo=Visualize_Metrics" alt='Visualize_Metrics' />
                             </a>
                         </div>
                     </div>
