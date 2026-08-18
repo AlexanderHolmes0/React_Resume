@@ -1,64 +1,59 @@
-import { useCallback, useState } from 'react';
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
-import particlesOptions from "./particles.json";
+import { Suspense, lazy, useCallback } from 'react';
+import Particles from 'react-tsparticles';
+import { loadFull } from 'tsparticles';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
-import Layout from "./components/Layout";
-import Blackjack from './components/BlackJackApp';
-import Home from './components/Home';
-import SenateTracker from './components/SenateTracker';
-import VizTree from './components/VisualizeTree';
-import MetaCreator from './components/Meta_Creator';
-import StrokeDash from './components/Stroke_Dash';
-import CentralLim from './components/CentralLimit';
-import Kroger from './components/KrogerDash';
-import Youtube from './components/YoutubeDash';
-import Kickstart from './components/KickstarterDash';
-import XGB from './components/RaceXGBS';
-import InventorySimulation from './components/InventorySimulation';
-import FakeNews from './components/FakeNews';
+import particlesOptions from './particles.json';
+import Layout from './components/Layout';
 import './App.css';
 
+const Home = lazy(() => import('./components/Home'));
+const BlackJack = lazy(() => import('./components/BlackJackApp'));
+const SenateTracker = lazy(() => import('./components/SenateTracker'));
+const VizTree = lazy(() => import('./components/VisualizeTree'));
+const MetaCreator = lazy(() => import('./components/Meta_Creator'));
+const StrokeDash = lazy(() => import('./components/Stroke_Dash'));
+const CentralLim = lazy(() => import('./components/CentralLimit'));
+const Kroger = lazy(() => import('./components/KrogerDash'));
+const Kickstart = lazy(() => import('./components/KickstarterDash'));
+const XGB = lazy(() => import('./components/RaceXGBS'));
+const InventorySimulation = lazy(() => import('./components/InventorySimulation'));
+const FakeNews = lazy(() => import('./components/FakeNews'));
 
-
-
-
+const routeFallback = <div className="appbox">Loading...</div>;
 
 export default function App() {
+  const particlesInit = useCallback((main) => {
+    loadFull(main);
+  }, []);
 
-    const particlesInit = useCallback(main => {
-        loadFull(main);
-    }, [])
-    
-    return (
-        <div className="App">
-<Particles options={particlesOptions} init={particlesInit} />
+  return (
+    <div className="App">
+      <Particles options={particlesOptions} init={particlesInit} />
 
-<Router>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path='Home' element={<Home />} />
-          <Route path="BlackJackApp" element={<Blackjack />} />
-          <Route path="Senate_Tracker" element={<SenateTracker />} />
-          <Route path="VisualizeTree" element={<VizTree />} />
-          <Route path="Meta_Creator" element={<MetaCreator />} />
-          <Route path="Stroke_Dash" element={<StrokeDash />} />
-          <Route path="Stroke_Dash" element={<StrokeDash />} />
-          <Route path="CentralLimit" element={<CentralLim />} />
-          <Route path="KrogerDash" element={<Kroger />} />
-          <Route path="YoutubeDash" element={<Youtube />} />
-          <Route path="KickstarterDash" element={<Kickstart />} />
-          <Route path="RaceXGBS" element={<XGB />} />
-          <Route path="InventorySimulation" element={<InventorySimulation/>} />
-          <Route path="FakeNews" element={<FakeNews />} />
-        </Route>
-      </Routes>
-    </Router>
-
-        </div>
-    );
+      <Router>
+        <Suspense fallback={routeFallback}>
+          <Routes>
+            <Route path="/" element={<Layout />}>
+              <Route index element={<Home />} />
+              <Route path="Home" element={<Home />} />
+              <Route path="BlackJackApp" element={<BlackJack />} />
+              <Route path="Senate_Tracker" element={<SenateTracker />} />
+              <Route path="VisualizeTree" element={<VizTree />} />
+              <Route path="Meta_Creator" element={<MetaCreator />} />
+              <Route path="Stroke_Dash" element={<StrokeDash />} />
+              <Route path="CentralLimit" element={<CentralLim />} />
+              <Route path="KrogerDash" element={<Kroger />} />
+              <Route path="KickstarterDash" element={<Kickstart />} />
+              <Route path="RaceXGBS" element={<XGB />} />
+              <Route path="InventorySimulation" element={<InventorySimulation />} />
+              <Route path="FakeNews" element={<FakeNews />} />
+            </Route>
+          </Routes>
+        </Suspense>
+      </Router>
+    </div>
+  );
 }
 
 
