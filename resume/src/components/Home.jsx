@@ -35,7 +35,7 @@ function Home() {
                         </a>
                     </div>
                     <div className='flex-items' title="Email me" >
-                        <a target="_blank" rel="noopener noreferrer" href="mailto:aholme27@vols.utk.edu" data-testid="email-link">
+                        <a target="_blank" rel="noopener noreferrer" href="mailto:alex.g.h@me.com" data-testid="email-link">
                             <FontAwesomeIcon icon={faEnvelope} size="3x" className="fa-icon" />
                         </a>
                     </div>
